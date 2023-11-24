@@ -1,6 +1,6 @@
 cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
 <div class="container">
-  <a class="navbar-brand" href="index.html"><img width="250" src="./imagenes/serieTV.jpg" alt="Catalogo de Series"></a>
+  <a class="navbar-brand" href="index.html"><img width="250" src="./imagenes/serieTV.jpg" alt="Catálogo de Series"></a>
   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -14,8 +14,9 @@ cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="login.html">LOG IN</a>
+                  <a class="dropdown-item" href="#">Log In</a>
                   <a class="dropdown-item" href="series.html">Series</a>
+                  
                   
               </div>
           </li>
