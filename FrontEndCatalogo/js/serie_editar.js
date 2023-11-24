@@ -12,7 +12,7 @@ createApp({
             clasificacion: "",
             anio:0,
             imagen: "",
-            url: 'http://localhost:5000/series/' + id,
+            url: 'https://marisas1978.pythonanywhere.com/series/' + id,
             error:false
         }
     },

@@ -3,9 +3,9 @@ createApp({
     data() {
         return {
             series: [],
-            url: 'http://localhost:5000/series',
+            //url: 'http://localhost:5000/series',
             // si el backend esta corriendo local  usar localhost 5000(si no lo subieron a pythonanywhere)
-            //url:'http://marcerda.pythonanywhere.com/productos',   // si ya lo subieron a pythonanywhere
+            url:'https://marisas1978.pythonanywhere.com/series',   // si ya lo subieron a pythonanywhere
             error: false,
             cargando: true,
             /*atributos para el guardar los valores del formulario */
