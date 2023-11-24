@@ -8,11 +8,11 @@ createApp({
             id: null,
             titulo: "",
             genero:"",
-            duracion:0,
+            temporadas:0,
             clasificacion: "",
             anio:0,
             imagen: "",
-            url: 'http://localhost:5000/serie/' + id,
+            url: 'http://localhost:5000/series/' + id,
             error:false
         }
     },
@@ -25,7 +25,7 @@ createApp({
                     this.id = data.id
                     this.titulo = data.titulo
                     this.genero = data.genero
-                    this.duracion = data.duracion
+                    this.temporadas = data.temporadas
                     this.clasificacion = data. clasificacion
                     this.anio = data.anio
                     this.imagen = data.imagen
@@ -40,7 +40,7 @@ createApp({
             let serie = {
                 titulo: this.titulo,
                 genero: this.genero,
-                duracion: this.duracion,
+                temporadas: this.temporadas,
                 clasificacion: this.clasificacion,
                 anio: this.anio,
                 imagen: this.imagen

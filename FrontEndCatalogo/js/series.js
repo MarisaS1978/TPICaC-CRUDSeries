@@ -3,7 +3,7 @@ createApp({
     data() {
         return {
             series: [],
-            url: 'http://localhost:5000/serie',
+            url: 'http://localhost:5000/series',
             // si el backend esta corriendo local  usar localhost 5000(si no lo subieron a pythonanywhere)
             //url:'http://marcerda.pythonanywhere.com/productos',   // si ya lo subieron a pythonanywhere
             error: false,
@@ -11,7 +11,8 @@ createApp({
             /*atributos para el guardar los valores del formulario */
             id: null,
             titulo: "",
-            duracion: 0,
+            genero:"",
+            temporadas: 0,
             clasificacion: "",
             anio: 0,
             imagen: "",
@@ -47,7 +48,7 @@ createApp({
             let serie = {
                 titulo: this.titulo,
                 genero: this.genero,
-                duracion: this.duracion,
+                temporadas: this.temporadas,
                 clasificacion: this.clasificacion,
                 anio: this.anio,
                 imagen: this.imagen
@@ -61,7 +62,7 @@ createApp({
             fetch(this.url, options)
                 .then(function () {
                     alert("Serie grabada")
-                    window.location.href = "./series.html";  // recarga productos.html
+                    window.location.href = "./series.html";  // recarga series.html
                 })
                 .catch(err => {
                     console.error(err);

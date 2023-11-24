@@ -14,8 +14,9 @@ cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="login.html">LOG IN</a>
                   <a class="dropdown-item" href="series.html">Series</a>
-                  <a class="dropdown-item" href="#">OtraTabla</a>
+                  
               </div>
           </li>
       </ul>
