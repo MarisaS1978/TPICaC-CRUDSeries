@@ -1,0 +1,90 @@
+.hero{
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.family-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.family{
+    width:700px;
+    height: auto;
+    padding: 1rem 0;
+
+}
+
+/*.plate-circle{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translate(0, -45%);
+}*/
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+.hero-title{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 400px;
+
+}
+
+/*.hero-content > button{}*/ /*sería otra forma de llamar a la clase*/
+/*.hero-button{
+    background-color: var(--dark-color);
+    color: white;
+    padding: 0.75em 1.5em;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid var(--dark-color);
+    transition: all;
+    transition-duration: 300ms;
+   
+}*/
+
+.left-floating{
+    width: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform:rotate(15deg) translate(-10%, -10%);
+
+}
+
+.right-floating{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-25deg) translate(-0.5%, -10%);
+
+}
+/* .logo-bar{
+    position: absolute;
+    top: 0;
+} */
+
+/* .hero-button:hover{
+    cursor:pointer;
+    background: var(--primary-color);
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    scale: 1.025;
+    
+} */

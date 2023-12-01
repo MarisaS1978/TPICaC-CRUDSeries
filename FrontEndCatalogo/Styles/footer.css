@@ -1,0 +1,29 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3rem;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/*#streaming{
+    display:block;
+    align-self: center;
+    align-content: center;
+}*/
+
+.copyright{
+    font-family: Montserrat;
+}
+
+.copyright p{
+    padding: 0.5rem;
+    align-content: center;
+}
+.brand-copy{
+    font-weight: bold;
+}
