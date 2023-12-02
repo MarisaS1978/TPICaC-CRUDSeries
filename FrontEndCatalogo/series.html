@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Styles/style.css">
+    </head>
 
 <body>
     <header>
@@ -54,10 +59,10 @@
                                         <img width="100" height="150" :src="serie.imagen" :alt="serie.titulo">
                                     </td>
                                     <td>
-                                        <a class="btn btn-primary btn-sm"
+                                        <a class="btn btn-primary "
                                             :href="'serie_update.html?id='+ serie.id">Editar</a>
                                             <br><br>
-                                        <button type="button" class="btn btn-danger btn-sm"
+                                        <button type="button" class="btn btn-danger "
                                             v-on:click="eliminar(serie.id)">Eliminar</button>
                                     </td>
                                 </tr>

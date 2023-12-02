@@ -16,6 +16,7 @@ createApp({
             clasificacion: "",
             anio: 0,
             imagen: "",
+            
 
         }
     },

@@ -1,5 +1,5 @@
 console.log(location.search)     // lee los argumentos pasados a este formulario
-var id = location.search.substr(4)  // producto_update.html?id=1
+var id = location.search.substr(4)  // serie_update.html?id=1
 console.log(id)
 const { createApp } = Vue
 createApp({
@@ -54,7 +54,7 @@ createApp({
             fetch(this.url, options)
                 .then(function () {
                     alert("Registro modificado")
-                    window.location.href = "./series.html"; // navega a productos.html          
+                    window.location.href = "./series.html"; // navega a series.html          
                 })
                 .catch(err => {
                     console.error(err);
