@@ -1,4 +1,4 @@
-cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
+cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-warning">
 <div class="container">
   <a class="navbar-brand" href="index.html">Fan Series</a>
   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -21,10 +21,7 @@ cad = ` <nav class="navbar navbar-expand-sm navbar-light bg-light">
               </div>
           </li>
       </ul>
-      <form class="d-flex my-2 my-lg-0">
-          <input class="form-control me-sm-2" type="text" placeholder="Busca tu serie">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
+      
   </div>
 </div>
 </nav>
