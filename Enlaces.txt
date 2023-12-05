@@ -1,2 +1,0 @@
-Backend: https://marisas1978.pythonanywhere.com/series
-FrontEnd:https://seriescat.netlify.app/index.html

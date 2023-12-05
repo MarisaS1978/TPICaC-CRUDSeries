@@ -10,4 +10,13 @@
 
 h1{
     font-size: 24px;
+    
+}
+
+.login{
+    margin: 20px 500px ;
+
+}
+.login-container{
+    padding: 25px;
 }
