@@ -20,3 +20,14 @@ h1{
 .login-container{
     padding: 25px;
 }
+
+
+.serie-imagen {
+    width: 100px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+.series-imagen{
+    height: 500px; 
+    object-fit: cover;
+}
