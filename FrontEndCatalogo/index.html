@@ -49,6 +49,7 @@
     </header>
 
     <main>
+       
         <section class="hero">
             <img class="left-floating" src="Assets/png-clipart-cinema-film-moveis-logo-film-removebg-preview.png"
                 alt="">
@@ -63,6 +64,52 @@
                 <h2 class="hero-title text-serif">¡Dejate llevar!</h2>
             </div>
         </section>
+        <div id="mi-lista" class="container">
+            <div>
+                <h1 id="miLista">Series Cargadas</h1>
+                <div v-if="error">
+                    <p>Lo siento, ocurrió un error!.</p>
+                </div>
+                <div v-else>
+                    <section v-if="cargando">
+                        <div class="spinner-grow text-primary"></div>
+                        <p>Cargando, espere por favor!</p>
+                    </section>
+                    <section v-else>
+                        <div class="table-responsive">
+                            <table class="table table-bordered border-primary table-striped table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th scope="col">Imagen</th>
+                                        <th scope="col">Titulo</th>
+                                        <th scope="col">Género</th>
+                                        <th scope="col">Temporadas</th>
+                                        <th scope="col">Clasificación</th>
+                                        <th scope="col">Año</th>
+                                        
+
+                                    </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                    <tr v-for="serie in series" :key="serie.id">
+                                        <td>
+                                            <img width="80" :src="serie.imagen" :alt="serie.Titulo">
+                                        </td>
+                                        <td>{{serie.titulo}}</td>
+                                        <td>{{serie.genero}}</td>
+                                        <td>{{serie.temporadas}}</td>
+                                        <td>{{serie.clasificacion}}</td>
+                                        <td>{{serie.anio}}</td>
+                                        
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -123,6 +170,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script><!--Link de VUE-->
+        <script src="js/miLista.js"></script>
 
     
 </body>

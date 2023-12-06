@@ -27,7 +27,7 @@ cad = `<nav class="navbar navbar-expand-sm navbar-light bg-warning">
 
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
                     <a class="dropdown-item" href="series.html">Gestor de Series</a>
-                    <a class="dropdown-item" href="miLista.html">Mi Lista</a>
+                    
                 </div>
             </li>
         </ul>
